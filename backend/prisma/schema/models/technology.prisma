@@ -1,0 +1,13 @@
+model Technology {
+  id                Int                 @id @default(autoincrement())
+  name              String
+  description       String
+  image             String
+  highlight         Boolean             @default(false)
+  created_at        DateTime            @default(now())
+  updated_at        DateTime            @default(now())
+  // projects          Project[] // Relacionamento muitos para muitos (table implicita)
+  TechnologyProject TechnologyProject[] // Relacionamento muitos para muitos (table explicita)
+
+  @@map("technologies")
+}
