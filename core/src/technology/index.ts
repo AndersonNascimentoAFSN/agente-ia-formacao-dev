@@ -1,3 +1,3 @@
-import Technology from './Technology'
+import ITechnology from './Technology'
 
-export type { Technology }
+export type { ITechnology }

@@ -11,7 +11,7 @@ export default interface IProject {
   level: Level;
   repository: string;
   highlight: boolean;
-  technology: ITechnology[];
+  technologies: ITechnology[];
   // created_at: Date;
   // updated_at: Date;
 }
