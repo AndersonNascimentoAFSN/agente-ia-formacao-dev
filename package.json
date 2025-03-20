@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-agentes-ia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx concurrently \"cd backend && npm run start:dev\" \"cd frontend && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndersonNascimentoAFSN/agente-ia-formacao-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AndersonNascimentoAFSN/agente-ia-formacao-dev/issues"
+  },
+  "homepage": "https://github.com/AndersonNascimentoAFSN/agente-ia-formacao-dev#readme"
+}
